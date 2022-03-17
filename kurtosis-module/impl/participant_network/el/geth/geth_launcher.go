@@ -31,7 +31,7 @@ const (
 	engineRpcPortId    = "engineRpc"
 	engineWsPortId     = "engineWs"
 
-	// NOTE: This can't be 0x00000....000
+	// NOTE: This can't be 0x00000....000.
 	// See: https://github.com/ethereum/go-ethereum/issues/19547
 	miningRewardsAccount = "0x0000000000000000000000000000000000000001"
 
